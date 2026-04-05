@@ -1,10 +1,10 @@
 {
   "name": "nt-service-backend",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "backend/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
